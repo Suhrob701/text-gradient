@@ -1,0 +1,31 @@
+/* Umumiy body stillari */
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    transition: background 1s ease-in-out;
+}
+
+/* Container */
+.container {
+    text-align: center;
+}
+
+/* Background stillari */
+.bg1 { background: linear-gradient(45deg, #ff416c, #ff4b2b); }
+.bg2 { background: linear-gradient(45deg, #00c6ff, #0072ff); }
+.bg3 { background: linear-gradient(45deg, #ff6a00, #ffcc00); }
+
+/* Matn uchun gradient effekt */
+h1 {
+    font-size: 3em;
+    font-weight: bold;
+    background: linear-gradient(45deg, #ff6a00, #ee0979);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: background 1s ease-in-out;
+}
